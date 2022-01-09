@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Balsamiq Sans';
+}
+
+.title {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+    background: grey;
+    height: 80px;    
+}
+
+.bodyMean {
+    display:flex;
+    width: 90%;
+    max-width: 900px;
+}
+
+.block1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    flex: 1;
+    padding: 20px;
+}
+
+.concepts {
+    border: 2px solid black;
+}
+
+.concepts2 {
+    border: 2px solid black;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 300px;
+    padding: 20px;
+    justify-content: flex-start;
+}
+
+.addDefine {
+    border: 2px solid black;
+}
