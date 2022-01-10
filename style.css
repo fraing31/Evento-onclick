@@ -8,48 +8,109 @@ body {
     font-family: 'Balsamiq Sans';
 }
 
+
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+}
+
+
+
 .title {
     color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 90%;
-    max-width: 1000px;
-    margin:auto;
-    background: grey;
+    background: rgba(189, 183, 183, 0.952);
     height: 80px;    
 }
 
-.bodyMean {
-    display:flex;
-    width: 90%;
-    max-width: 900px;
+.dojo, .word, .yourself {
+    font-size:30px;
 }
 
-.block1 {
-    display:flex;
-    flex-direction: column;
-    justify-content: left;
-    flex: 1;
-    padding: 20px;
+.type {
+    font-style: italic;
+}
+
+.text1 {
+    font-size: 25px;
+}
+
+.title > button {
+    margin: 5px;
+    background-color: rgb(33, 117, 196);
+    color:white;
+    border-color: black;
+    box-shadow: 3px 3px black;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.bodyMean {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 .concepts {
     border: 2px solid black;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+    padding: 10px;
 }
+
+.ninLike > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.ninLike > button {
+    margin: 5px;
+    margin-left: 60px;
+    background-color: rgba(231, 228, 64, 0.897);
+    color:black;
+    border-color: black;
+    box-shadow: 3px 3px black;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.mean {
+    display: flex;
+    align-items: center;
+} 
 
 .concepts2 {
     border: 2px solid black;
-}
-
-.block2 {
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 300px;
-    padding: 20px;
-    justify-content: flex-start;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+    padding: 10px;
 }
 
 .addDefine {
     border: 2px solid black;
+    width:200px;
+    margin: 20px;
+    padding: 10px;
 }
+
+.addDefine > button {
+    margin: 5px;
+    margin-left: 25px;
+    background-color: rgba(131, 199, 21, 0.897);
+    color:black;
+    border-color: black;
+    box-shadow: 3px 3px black;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.
